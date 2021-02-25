@@ -10,7 +10,7 @@ const Card = ({ data }) => {
         </div>
       </div>
       <div className="card-item">{data.title}</div>
-      <div className="card-item">{data.price}</div>
+      <div className="card-item">${data.price}</div>
       <div className="card-item">{data.rating}/5</div>
     </div>
   );
